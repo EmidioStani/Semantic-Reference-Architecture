@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Reference Architecture" id="id-adcd4d443bde4988b8409b8eb0c8c716" version="4.9.0">
+  <folder name="Strategy" id="id-0db0479ede8a4297a7a50f9924c22539" type="strategy"/>
+  <folder name="Business" id="id-d361cc43b66644c9b583db277388a80f" type="business"/>
+  <folder name="Application" id="id-bf7b6360061541bb9115309b6084a219" type="application">
+    <element xsi:type="archimate:ApplicationComponent" name="Requirement management" id="id-f6178076f59849fdba7a631485e968d6"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Authoring" id="id-62f25b18bb3343489d1ef90bbf54c0fd"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Transformation" id="id-049f69f437b54d3d8cb2b420b5bc35eb"/>
+    <element xsi:type="archimate:ApplicationComponent" name="UML" id="id-ba06e3a53af94fc3a1b937d7c2ba8681"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Quality" id="id-fc8e2ff22bb74cce8bb526ee1c2f801d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="UML modeller" id="id-aa846ebc021d462dab1e212ac7a54331"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Requirement registry" id="id-10134d7f278045f98963a22fed89bb00"/>
+    <element xsi:type="archimate:ApplicationComponent" name="RDF modeller" id="id-3d4d2b2d0526434084e32025abc9d764"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Serializer" id="id-01b109959a8544a8a42f84c8ba98cb5d">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Transformer" id="id-b58b2a1535c54fad86c6a0c82656ca25"/>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-8a0b62c95f614a3ea3a147489db04e3f" type="technology"/>
+  <folder name="Motivation" id="id-b113e8acd6094d209e57353fea291f3c" type="motivation"/>
+  <folder name="Implementation &amp; Migration" id="id-27ac483d4ecf4940adb8b4c7ddc805b3" type="implementation_migration"/>
+  <folder name="Other" id="id-d0d2a0429b6d44d6b4db1e034d524617" type="other"/>
+  <folder name="Relations" id="id-0ba960dde43f4fe68afd0b948fb92387" type="relations">
+    <element xsi:type="archimate:SpecializationRelationship" id="id-0e68058ca91a4ccf998b62a487b00852" source="id-ba06e3a53af94fc3a1b937d7c2ba8681" target="id-62f25b18bb3343489d1ef90bbf54c0fd"/>
+  </folder>
+  <folder name="Views" id="id-56d47ff61a8e4ed6b8b357fc40829c35" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-58323f4fe8674ad587a2c26d4c5e66cb">
+      <child xsi:type="archimate:Group" id="id-83ab8fec607e4609ac2162db73c1aa49" name="Quality" textAlignment="1">
+        <bounds x="804" y="140" width="217" height="245"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-7500c1fa530c48a3b2a63b82512025b7" name="Transformation" textAlignment="1">
+        <bounds x="588" y="140" width="169" height="245"/>
+        <child xsi:type="archimate:DiagramObject" id="id-0a1b1300c5c24682b0a6defc00de0985" archimateElement="id-01b109959a8544a8a42f84c8ba98cb5d">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ba655c7b9ff848eab5f102f240871c72" archimateElement="id-b58b2a1535c54fad86c6a0c82656ca25">
+          <bounds x="24" y="120" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:Group" id="id-778b59a08e7145e8a8b80e0f1c2518f4" name="Authoring" textAlignment="1">
+        <bounds x="363" y="140" width="178" height="245"/>
+        <child xsi:type="archimate:DiagramObject" id="id-724f236e3d5f4177b0a40c5833482d7f" archimateElement="id-aa846ebc021d462dab1e212ac7a54331">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-7bd6c74569c4443f86c3a96740b9866c" archimateElement="id-3d4d2b2d0526434084e32025abc9d764">
+          <bounds x="24" y="108" width="120" height="55"/>
+        </child>
+        <documentation>Authoring tools include tools for design the conceptual model such as UML modelling, RDF modelling and others</documentation>
+      </child>
+      <child xsi:type="archimate:Group" id="id-e8af799fe056478b8e8653148bff8767" name="Requirement Management" textAlignment="1">
+        <bounds x="141" y="140" width="172" height="245"/>
+        <child xsi:type="archimate:DiagramObject" id="id-14647609b3554abe890dabeeefe76a13" archimateElement="id-10134d7f278045f98963a22fed89bb00">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <documentation>The Requirement Management include the functionalities to collect requirement and link releases with them</documentation>
+      </child>
+      <child xsi:type="archimate:Group" id="id-541e969092314ed98e361ac8ed6dcd34" name="Publication" textAlignment="1">
+        <bounds x="141" y="420" width="217" height="233"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-c5323fc10e5b44eb8317a520a0a8ac8a" name="Exploration" textAlignment="1">
+        <bounds x="408" y="420" width="217" height="233"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-3de82bae1e1b436e970b297b3b06727c" name="Integration" textAlignment="1">
+        <bounds x="672" y="420" width="217" height="233"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-976af00714cd47899068965f4d92a229" name="Enrichment" textAlignment="1">
+        <bounds x="924" y="420" width="217" height="233"/>
+      </child>
+      <child xsi:type="archimate:Group" id="id-5944548975cd4c9a86fa56a5fdb3b471" name="Evolution" textAlignment="1">
+        <bounds x="1176" y="420" width="217" height="233"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
