@@ -8,13 +8,60 @@
     <element xsi:type="archimate:ApplicationComponent" name="Transformation" id="id-049f69f437b54d3d8cb2b420b5bc35eb"/>
     <element xsi:type="archimate:ApplicationComponent" name="UML" id="id-ba06e3a53af94fc3a1b937d7c2ba8681"/>
     <element xsi:type="archimate:ApplicationComponent" name="Quality" id="id-fc8e2ff22bb74cce8bb526ee1c2f801d"/>
-    <element xsi:type="archimate:ApplicationComponent" name="UML modeller" id="id-aa846ebc021d462dab1e212ac7a54331"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Modeller" id="id-aa846ebc021d462dab1e212ac7a54331"/>
     <element xsi:type="archimate:ApplicationComponent" name="Requirement registry" id="id-10134d7f278045f98963a22fed89bb00"/>
-    <element xsi:type="archimate:ApplicationComponent" name="RDF modeller" id="id-3d4d2b2d0526434084e32025abc9d764"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Collaborative Environment" id="id-3d4d2b2d0526434084e32025abc9d764"/>
     <element xsi:type="archimate:ApplicationComponent" name="Serializer" id="id-01b109959a8544a8a42f84c8ba98cb5d">
       <documentation>Transformation </documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Transformer" id="id-b58b2a1535c54fad86c6a0c82656ca25"/>
+    <element xsi:type="archimate:ApplicationComponent" name="UML model quality" id="id-d06451e783d94c6281742ffed4068d3d"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Artefact Syntax Quality" id="id-87dadd52d0604f74b3c49f42b141db3f"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Reasoning quality" id="id-092833d1629e4e319821672e338a0280"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Reasoning" id="id-28371388692645e6a7d02ba6104aed67"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Constraint Quality" id="id-73312a1a128c419fb7028334e401bf64"/>
+    <element xsi:type="archimate:ApplicationComponent" name="PURI quality" id="id-51eb1feff66644938982c917ece84b60"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Continuous Integration" id="id-3a72fcd6c4594d7eb8b6cfd5a50fe53b"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Specification document" id="id-ecc8bd6a2b0e4f4fa1fe742c7a284f54">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" id="id-68eca97820ab45ee8b00689c9063a698">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Model Registry" id="id-71ccd3e04c9a4765b3db59f803f3097e">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Specification Registry" id="id-93f7f234036f4f688468a86de4ff855d">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Design Pattern Registry" id="id-1e08a30efbb543868b2f553de80a2b90">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Semantic Artefact" id="id-d9e82396644b46549c1e8e787bb7bbdc">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Web server" id="id-2d2dd3a928ca4065adb3e8924ae1ee6e"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Visualization" id="id-901534fe44a44be681eb2e625615a34b">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Translation" id="id-f727d205b19c45f3becd1e2d2da743b4"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Interlinking" id="id-251357cf248743fe9c5d721befa99753"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Versioning differences" id="id-b3b6fd3a40f145a8bec592b236bfa66f">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Synonyms" id="id-f8a95d0d0a674d1a9e8dba534df0a411"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Identifier Management" id="id-9974ba5a65a445e7b81068f320280ef4">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Instance Management" id="id-c5d2b4ae1458442cbb722ba9b86aa2a7">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Metadata (versioning) management" id="id-923690a1257a4f72a5a45f717a009bce">
+      <documentation>Transformation </documentation>
+    </element>
+    <element xsi:type="archimate:ApplicationComponent" name="Release Management" id="id-e0f01fd5753045f2aa780e1a7589b768">
+      <documentation>Transformation </documentation>
+    </element>
   </folder>
   <folder name="Technology &amp; Physical" id="id-8a0b62c95f614a3ea3a147489db04e3f" type="technology"/>
   <folder name="Motivation" id="id-b113e8acd6094d209e57353fea291f3c" type="motivation"/>
@@ -26,7 +73,22 @@
   <folder name="Views" id="id-56d47ff61a8e4ed6b8b357fc40829c35" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-58323f4fe8674ad587a2c26d4c5e66cb">
       <child xsi:type="archimate:Group" id="id-83ab8fec607e4609ac2162db73c1aa49" name="Quality" textAlignment="1">
-        <bounds x="804" y="140" width="217" height="245"/>
+        <bounds x="141" width="1143" height="121"/>
+        <child xsi:type="archimate:DiagramObject" id="id-13d635fce71e4cda89684ad6d6bc2a77" archimateElement="id-d06451e783d94c6281742ffed4068d3d">
+          <bounds x="252" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5706061db8b74a0b91ae5495d1940d28" archimateElement="id-87dadd52d0604f74b3c49f42b141db3f">
+          <bounds x="636" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-95a5283e4f3d457c95394fd46ad02287" archimateElement="id-092833d1629e4e319821672e338a0280">
+          <bounds x="456" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-08757800d9bd4abea2c43f4fe6244ba1" archimateElement="id-73312a1a128c419fb7028334e401bf64">
+          <bounds x="768" y="36" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d06ae16dc79b4f55bc2896bf1e0139f5" archimateElement="id-51eb1feff66644938982c917ece84b60">
+          <bounds x="948" y="36" width="120" height="55"/>
+        </child>
       </child>
       <child xsi:type="archimate:Group" id="id-7500c1fa530c48a3b2a63b82512025b7" name="Transformation" textAlignment="1">
         <bounds x="588" y="140" width="169" height="245"/>
@@ -34,7 +96,7 @@
           <bounds x="24" y="48" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-ba655c7b9ff848eab5f102f240871c72" archimateElement="id-b58b2a1535c54fad86c6a0c82656ca25">
-          <bounds x="24" y="120" width="120" height="55"/>
+          <bounds x="24" y="132" width="120" height="55"/>
         </child>
       </child>
       <child xsi:type="archimate:Group" id="id-778b59a08e7145e8a8b80e0f1c2518f4" name="Authoring" textAlignment="1">
@@ -43,7 +105,7 @@
           <bounds x="24" y="48" width="120" height="55"/>
         </child>
         <child xsi:type="archimate:DiagramObject" id="id-7bd6c74569c4443f86c3a96740b9866c" archimateElement="id-3d4d2b2d0526434084e32025abc9d764">
-          <bounds x="24" y="108" width="120" height="55"/>
+          <bounds x="24" y="132" width="120" height="55"/>
         </child>
         <documentation>Authoring tools include tools for design the conceptual model such as UML modelling, RDF modelling and others</documentation>
       </child>
@@ -55,19 +117,70 @@
         <documentation>The Requirement Management include the functionalities to collect requirement and link releases with them</documentation>
       </child>
       <child xsi:type="archimate:Group" id="id-541e969092314ed98e361ac8ed6dcd34" name="Publication" textAlignment="1">
-        <bounds x="141" y="420" width="217" height="233"/>
+        <bounds x="792" y="140" width="217" height="245"/>
+        <child xsi:type="archimate:DiagramObject" id="id-4323ca43480445d3b3b0780da97c5a22" archimateElement="id-ecc8bd6a2b0e4f4fa1fe742c7a284f54">
+          <bounds x="48" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-a977bebc3536407f9ad30faf4f182ad2" archimateElement="id-d9e82396644b46549c1e8e787bb7bbdc">
+          <bounds x="48" y="144" width="120" height="55"/>
+        </child>
       </child>
       <child xsi:type="archimate:Group" id="id-c5323fc10e5b44eb8317a520a0a8ac8a" name="Exploration" textAlignment="1">
-        <bounds x="408" y="420" width="217" height="233"/>
+        <bounds x="792" y="408" width="217" height="409"/>
+        <child xsi:type="archimate:DiagramObject" id="id-1e45651e4eb242d789bfc6cd417237eb" archimateElement="id-71ccd3e04c9a4765b3db59f803f3097e">
+          <bounds x="48" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-d5bbc29244ae4d5797dc76d76359932f" archimateElement="id-93f7f234036f4f688468a86de4ff855d">
+          <bounds x="48" y="120" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-90baebb159dd4c879f305b6611188812" archimateElement="id-1e08a30efbb543868b2f553de80a2b90">
+          <bounds x="48" y="192" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-735d4fcb2ba849fcb9670e8c98778dfd" archimateElement="id-901534fe44a44be681eb2e625615a34b">
+          <bounds x="48" y="264" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-2e2dfd626ae64a14a2e54ceed369302a" archimateElement="id-b3b6fd3a40f145a8bec592b236bfa66f">
+          <bounds x="48" y="336" width="120" height="55"/>
+        </child>
       </child>
-      <child xsi:type="archimate:Group" id="id-3de82bae1e1b436e970b297b3b06727c" name="Integration" textAlignment="1">
-        <bounds x="672" y="420" width="217" height="233"/>
+      <child xsi:type="archimate:Group" id="id-3de82bae1e1b436e970b297b3b06727c" name="Configuration Management" textAlignment="1">
+        <bounds x="132" y="816" width="1141" height="169"/>
+        <child xsi:type="archimate:DiagramObject" id="id-704411b374c04e7f9f7aa12c48bf9f9f" archimateElement="id-3a72fcd6c4594d7eb8b6cfd5a50fe53b">
+          <bounds x="408" y="60" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-5241ce6a32aa4fb5813df6baaaf219e4" archimateElement="id-2d2dd3a928ca4065adb3e8924ae1ee6e">
+          <bounds x="600" y="60" width="120" height="55"/>
+        </child>
       </child>
       <child xsi:type="archimate:Group" id="id-976af00714cd47899068965f4d92a229" name="Enrichment" textAlignment="1">
-        <bounds x="924" y="420" width="217" height="233"/>
+        <bounds x="588" y="408" width="169" height="337"/>
+        <child xsi:type="archimate:DiagramObject" id="id-26ca2573af8741738baf0e8c7c55c962" archimateElement="id-28371388692645e6a7d02ba6104aed67">
+          <bounds x="24" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-322e037b90e84945b3387b45f328c13e" archimateElement="id-f727d205b19c45f3becd1e2d2da743b4">
+          <bounds x="24" y="120" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-49bdf9f660cb47c8b119e678b3f1dc2b" archimateElement="id-251357cf248743fe9c5d721befa99753">
+          <bounds x="24" y="192" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-42348f4e9d894dc5bc665de2db9ad48d" archimateElement="id-f8a95d0d0a674d1a9e8dba534df0a411">
+          <bounds x="24" y="264" width="120" height="55"/>
+        </child>
       </child>
       <child xsi:type="archimate:Group" id="id-5944548975cd4c9a86fa56a5fdb3b471" name="Evolution" textAlignment="1">
-        <bounds x="1176" y="420" width="217" height="233"/>
+        <bounds x="1044" y="140" width="217" height="329"/>
+        <child xsi:type="archimate:DiagramObject" id="id-bb5d59209d1f4bd8a9051bed05afdfe8" archimateElement="id-9974ba5a65a445e7b81068f320280ef4">
+          <bounds x="48" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-110e21bdc2ac4e0fb63e46762c46698f" archimateElement="id-c5d2b4ae1458442cbb722ba9b86aa2a7">
+          <bounds x="48" y="120" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-0edcb0580cbe4234be5c5433a2a44dc7" archimateElement="id-923690a1257a4f72a5a45f717a009bce">
+          <bounds x="48" y="192" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-ee0add61b52240ffab6d15cf2d327416" archimateElement="id-e0f01fd5753045f2aa780e1a7589b768">
+          <bounds x="48" y="264" width="120" height="55"/>
+        </child>
       </child>
     </element>
   </folder>
