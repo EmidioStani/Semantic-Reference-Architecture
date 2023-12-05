@@ -9,7 +9,7 @@
     <element xsi:type="archimate:ApplicationComponent" name="UML" id="id-ba06e3a53af94fc3a1b937d7c2ba8681"/>
     <element xsi:type="archimate:ApplicationComponent" name="Quality" id="id-fc8e2ff22bb74cce8bb526ee1c2f801d"/>
     <element xsi:type="archimate:ApplicationComponent" name="Modeller" id="id-aa846ebc021d462dab1e212ac7a54331"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Requirement registry" id="id-10134d7f278045f98963a22fed89bb00"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Requirement Repository" id="id-10134d7f278045f98963a22fed89bb00"/>
     <element xsi:type="archimate:ApplicationComponent" name="Collaborative Environment" id="id-3d4d2b2d0526434084e32025abc9d764"/>
     <element xsi:type="archimate:ApplicationComponent" name="Serializer" id="id-01b109959a8544a8a42f84c8ba98cb5d">
       <documentation>Transformation </documentation>
@@ -28,13 +28,13 @@
     <element xsi:type="archimate:ApplicationComponent" id="id-68eca97820ab45ee8b00689c9063a698">
       <documentation>Transformation </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Model Registry" id="id-71ccd3e04c9a4765b3db59f803f3097e">
+    <element xsi:type="archimate:ApplicationComponent" name="Model Repository" id="id-71ccd3e04c9a4765b3db59f803f3097e">
       <documentation>Transformation </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Specification Registry" id="id-93f7f234036f4f688468a86de4ff855d">
+    <element xsi:type="archimate:ApplicationComponent" name="Specification Repository" id="id-93f7f234036f4f688468a86de4ff855d">
       <documentation>Transformation </documentation>
     </element>
-    <element xsi:type="archimate:ApplicationComponent" name="Design Pattern Registry" id="id-1e08a30efbb543868b2f553de80a2b90">
+    <element xsi:type="archimate:ApplicationComponent" name="Design Pattern Repository" id="id-1e08a30efbb543868b2f553de80a2b90">
       <documentation>Transformation </documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Machine-readable artefact publication" id="id-d9e82396644b46549c1e8e787bb7bbdc">
