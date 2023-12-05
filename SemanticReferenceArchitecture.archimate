@@ -41,7 +41,7 @@
       <documentation>Transformation </documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Web server" id="id-2d2dd3a928ca4065adb3e8924ae1ee6e"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Visualization" id="id-901534fe44a44be681eb2e625615a34b">
+    <element xsi:type="archimate:ApplicationComponent" name="Visualisation" id="id-901534fe44a44be681eb2e625615a34b">
       <documentation>Transformation </documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" name="Translation component" id="id-f727d205b19c45f3becd1e2d2da743b4"/>
