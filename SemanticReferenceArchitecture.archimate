@@ -10,7 +10,7 @@
     <element xsi:type="archimate:ApplicationComponent" name="Quality" id="id-fc8e2ff22bb74cce8bb526ee1c2f801d"/>
     <element xsi:type="archimate:ApplicationComponent" name="Modeller" id="id-aa846ebc021d462dab1e212ac7a54331"/>
     <element xsi:type="archimate:ApplicationComponent" name="Requirement Repository" id="id-10134d7f278045f98963a22fed89bb00"/>
-    <element xsi:type="archimate:ApplicationComponent" name="Collaborative Environment" id="id-3d4d2b2d0526434084e32025abc9d764"/>
+    <element xsi:type="archimate:ApplicationComponent" name="Access Control" id="id-3d4d2b2d0526434084e32025abc9d764"/>
     <element xsi:type="archimate:ApplicationComponent" name="Serializer" id="id-01b109959a8544a8a42f84c8ba98cb5d">
       <documentation>Transformation </documentation>
     </element>
